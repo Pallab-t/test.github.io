@@ -1,0 +1,24 @@
+{
+    "type": "project",
+    "require": {
+        "contao/manager-bundle": "4.9.*",
+        "contao/calendar-bundle": "4.9.*",
+        "contao/comments-bundle": "4.9.*",
+        "contao/faq-bundle": "4.9.*",
+        "contao/listing-bundle": "4.9.*",
+        "contao/news-bundle": "4.9.*",
+        "contao/newsletter-bundle": "4.9.*",
+        "contao/conflicts": "*@dev"
+    },
+    "extra": {
+        "contao-component-dir": "assets"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+        ],
+        "post-update-cmd": [
+            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+        ]
+    }
+}

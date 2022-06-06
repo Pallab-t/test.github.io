@@ -1,0 +1,17 @@
+<div class="wrap mcb-wrap one valign-top clearfix">
+    <div class="mcb-wrap-inner">
+        <div class="column mcb-column one-second column_column">
+            <div class="column_attr clearfix" style="background-color:#fff;padding:80px 10% 65px;">
+                <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+                    <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+                    </div>
+                </div>
+                <hr class="no_line" style="margin:0 auto 20px">
+                 	<?php
+				    $s = $this->headline;
+				    $s = explode('_', $s);
+				    ?>
+
+                <h3><?= $s[0] ?> <span class="themecolor"><?= $s[1] ?></span></h3>
+                <hr class="no_line" style="margin:0 auto 10px">
+                <?= $this->text ?>

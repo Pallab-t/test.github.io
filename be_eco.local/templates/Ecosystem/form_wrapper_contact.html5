@@ -1,0 +1,24 @@
+			<div class="column mcb-column one column_column">
+			    <div class="column_attr clearfix">
+			        <div id="contactWrapper">
+						  <form<?php if ($this->action): ?> action="<?= $this->action ?>"<?php endif; ?> method="<?= $this->method ?>" enctype="<?= $this->enctype ?>"<?= $this->attributes ?><?= $this->novalidate ?> id="contactform">
+						    <div class="formbody">
+						      <?php if ('get' != $this->method): ?>
+						        <input type="hidden" name="FORM_SUBMIT" value="<?= $this->formSubmit ?>">
+						        <input type="hidden" name="REQUEST_TOKEN" value="{{request_token}}">
+						        <?php if ($this->maxFileSize): ?>
+						          <input type="hidden" name="MAX_FILE_SIZE" value="<?= $this->maxFileSize ?>">
+						        <?php endif; ?>
+						      <?php endif; ?>
+						      <?= $this->hidden ?>
+						      <?= $this->fields ?>
+						    </div>
+						  </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

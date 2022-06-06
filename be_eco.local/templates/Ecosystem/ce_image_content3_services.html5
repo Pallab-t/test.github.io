@@ -1,0 +1,15 @@
+<div class="section mcb-section mcb-section-n74zc2nmh no-margin-h no-margin-v" style="padding-top:110px;padding-bottom:90px;background-color:#ffffff">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one-second valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_image">
+                    <div class="image_frame image_item no_link scale-with-grid no_border">
+                        <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+                        </div>
+                    </div>
+                </div>
+                <div class="column mcb-column one column_column">
+                    <div class="column_attr clearfix" style="padding:60px 10% 45px;">
+                        <div class="column three-fourth">
+                            <h3 class="themecolor"><?= $this->headline ?></h3>
+                        </div>

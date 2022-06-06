@@ -1,0 +1,45 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/zh/tl_maintenance.xlf
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][0] = '删除session数据';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][1] = '请选择您想要清除或重新生成的数据。';
+$GLOBALS['TL_LANG']['tl_maintenance']['job'] = '工作';
+$GLOBALS['TL_LANG']['tl_maintenance']['description'] = '描述';
+$GLOBALS['TL_LANG']['tl_maintenance']['maintenanceMode'] = '维护模式';
+$GLOBALS['TL_LANG']['tl_maintenance']['clearCache'] = '删除session数据';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheCleared'] = '缓存已清除';
+$GLOBALS['TL_LANG']['tl_maintenance']['updateHelp'] = '请在这里输入您的%s。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][0] = '清除搜索索引';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][1] = '清空<code>tl_search</code> and <code>tl_search_index</code>数据表. 然后, 你必须重建搜索索引 (见上文).';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][0] = '清除undo数据表';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][1] = '清空<code>tl_undo</code>数据表, 该表中存储被删除的记录. 这个操作会永久删除这些记录.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][0] = '清除version数据表';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][1] = '清空<code>tl_version</code>数据表, 该表中存储一条记录之前的版本. 这个操作会永久删除这些记录.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][0] = '清除系统日志';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][1] = '清空<code>tl_log</code>数据表, 该表中存储所有系统日志记录. 这个操作会永久删除这些记录.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['crawl_queue'][0] = '清除爬虫队列';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][0] = '清除图片缓存';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][1] = '移除自动创建的图片并清除共享缓存, 避免链接到已删除的资源。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['scripts'][0] = '清除脚本缓存';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['scripts'][1] = '移除自动创建的 <code>.css</code> 和 <code>.js</code> 文件，重新创建内部样式表并清除共享缓存。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][0] = '清除共享缓存';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][1] = '删除前端页面的缓存版本。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['search'][0] = '清除搜索结果缓存';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['search'][1] = '删除搜索结果的缓存版本。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][0] = '清除临时文件夹';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][1] = '移除临时文件。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['xml'][0] = '重建XML文件';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['xml'][1] = '重建XML文件(站点地图和源)，然后清除共享缓存，避免链接到已删除的资源。。';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][0] = '重新创建符号链接';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][1] = '在<code>web/</code> 文件夹 (文件根目录)重新创建符号链接.';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawler'] = '爬虫';
+$GLOBALS['TL_LANG']['tl_maintenance']['startCrawling'] = '开始抓取';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscribers'][0] = '允许的特征';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscribers'][1] = '爬网程序会抓取它找到的所有 URL。在这里您可以决定如何处理这些结果。';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlMember'][0] = '前台用户';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlMember'][1] = '自动登录前段用户来索引受保护的页面。';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlWaitToBeFinished'] = '爬虫正在工作。请等待结束后查看结果。';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlDownloadDebugLog'] = '下载调试日志';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlDownloadSubscriberLog'] = '下载日志';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscriberNames']['search-index'] = '更新搜索索引';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscriberNames']['broken-link-checker'] = '检查坏链接';

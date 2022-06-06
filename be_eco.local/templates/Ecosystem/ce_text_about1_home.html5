@@ -1,0 +1,10 @@
+<h2><?= $this->headline ?></h2>
+<hr class="no_line" style="margin:0 auto 10px">
+<h6>
+	    <?php
+		$s = substr($this->text, 3);
+		$s = substr($s, 0, strlen($s)-4);
+		echo $s;
+		?>
+
+</h6>

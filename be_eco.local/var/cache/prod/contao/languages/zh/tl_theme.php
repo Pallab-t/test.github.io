@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/zh/tl_theme.xlf
+$GLOBALS['TL_LANG']['tl_theme']['name'][0] = '主题标题';
+$GLOBALS['TL_LANG']['tl_theme']['name'][1] = '请输入唯一的主题标题';
+$GLOBALS['TL_LANG']['tl_theme']['author'][0] = '作者';
+$GLOBALS['TL_LANG']['tl_theme']['author'][1] = '请输入主题设计师的姓名';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][0] = '文件夹';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][1] = '请在文件目录中选择该主题对应的文件夹';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][0] = '模板文件夹';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][1] = '这里可以选择用来导出主题的模板文件夹';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][0] = '截图';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][1] = '这里可以选择主题的截图';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][0] = '全局变量';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][1] = '您可以在这里定义该主题中样式表的全局变量 (如：<em>$red</em> -> <em>c00</em> or <em>$margin</em> -> <em>12px</em>)。';
+$GLOBALS['TL_LANG']['tl_theme']['source'][0] = '源文件';
+$GLOBALS['TL_LANG']['tl_theme']['source'][1] = '请将需要导入的.cto文件上传到这里。';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][0] = '修改日期';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][1] = '最近修改的日期';
+$GLOBALS['TL_LANG']['tl_theme']['title_legend'] = '标题和作者';
+$GLOBALS['TL_LANG']['tl_theme']['config_legend'] = '配置';
+$GLOBALS['TL_LANG']['tl_theme']['vars_legend'] = '全局变量';
+$GLOBALS['TL_LANG']['tl_theme']['theme_imported'] = '主题"%s"已导出。';
+$GLOBALS['TL_LANG']['tl_theme']['checking_theme'] = '正在检查主题数据';
+$GLOBALS['TL_LANG']['tl_theme']['tables_fields'] = '表和字段';
+$GLOBALS['TL_LANG']['tl_theme']['missing_field'] = '数据库中字段<strong>%s</strong>丢失，将不被导入。';
+$GLOBALS['TL_LANG']['tl_theme']['tables_ok'] = '数据表已成功通过检查。';
+$GLOBALS['TL_LANG']['tl_theme']['missing_xml'] = '主题"%s"损坏，无法导出。';
+$GLOBALS['TL_LANG']['tl_theme']['custom_templates'] = '自定义模板';
+$GLOBALS['TL_LANG']['tl_theme']['template_exists'] = '模板<strong>"%s"</strong>已存在，将被覆盖。';
+$GLOBALS['TL_LANG']['tl_theme']['templates_ok'] = '没有冲突';
+$GLOBALS['TL_LANG']['tl_theme']['store'][0] = '主题商店';
+$GLOBALS['TL_LANG']['tl_theme']['store'][1] = '在Contao主题商店中找到更多主题';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][0] = '导入';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][1] = '导入主题';
+$GLOBALS['TL_LANG']['tl_theme']['editmeta'] = '编辑主题设置';
+$GLOBALS['TL_LANG']['tl_theme']['new'][0] = '新建';
+$GLOBALS['TL_LANG']['tl_theme']['new'][1] = '创建新主题';
+$GLOBALS['TL_LANG']['tl_theme']['show'] = '显示ID为%s的主题详情';
+$GLOBALS['TL_LANG']['tl_theme']['edit'] = '编辑ID为%s的主题';
+$GLOBALS['TL_LANG']['tl_theme']['delete'] = '删除ID为%s的主题';
+$GLOBALS['TL_LANG']['tl_theme']['css'] = '编辑主题ID为%s的样式表';
+$GLOBALS['TL_LANG']['tl_theme']['modules'] = '编辑主题ID为%s的前端模块';
+$GLOBALS['TL_LANG']['tl_theme']['layout'] = '编辑主题ID为%s的页面布局';
+$GLOBALS['TL_LANG']['tl_theme']['imageSizes'] = '编辑主题ID为%s的图片尺寸';
+$GLOBALS['TL_LANG']['tl_theme']['exportTheme'] = '导出ID为%s的主题';

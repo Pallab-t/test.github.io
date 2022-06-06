@@ -1,0 +1,41 @@
+                <div class="section mcb-section mcb-section-da1r2kpo3 equal-height-wrap bg-cover" style="padding-top:140px;padding-bottom:100px;background-image:url(<?= $this->singleSRC ?>);background-repeat:no-repeat;background-position:center top;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_hover_box">
+                                    <div class="hover_box">
+                                        <a href="<?= $this->headline ?>" rel="prettyphoto">
+                                            <div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="files/assets/images/eco3-icon5a.png"><img class="hidden_photo scale-with-grid" src="files/assets/images/eco3-icon5b.png">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix" style="background-color:#fff;padding:80px 15% 65px;">
+                                        <h5 class="themecolor"><?= $this->caption ?></h5>
+                                        <h2>
+                                    	    <?php
+											$s = substr($this->text, 3);
+											$s = substr($s, 0, strlen($s)-4);
+											echo $s;
+											?>
+
+                                        </h2>
+                                        <hr class="no_line" style="margin:0 auto 30px">
+                                        <a class="button button_right button_size_2 button_theme button_js" href="about.html"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label"><?= $this->alt ?></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

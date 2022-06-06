@@ -1,0 +1,18 @@
+				    <?php foreach ($this->items as $item): ?>
+				     		<?php
+						    $s = $item['content'];
+						    $s = explode('_', $s);
+						    ?>
+				
+				        <hr class="no_line" style="margin:0 auto 10px">
+				        <h3 class="themecolor"><?= $s[0] ?></h3>
+				        <h5><?= $s[1] ?></h5>
+				    <?php endforeach; ?>
+				        <hr class="no_line" style="margin:0 auto 25px">
+				        <a class="button button_full_width button_size_2 button_theme button_js" href="#"><span class="button_label"><?= $this->headline ?></span></a>
+				    </div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+{
+    "users": {
+        "admin": {
+            "username": "admin",
+            "password": "$argon2id$v=19$m=65536,t=4,p=1$T3pvamFjLmVrdEdnYVhGeQ$ki7mkKWReahUJ46mPSjPvGisr+eg42Tmv3Eoeb6CvJc"
+        }
+    },
+    "version": 2,
+    "secret": "d6ea3733dde0eb4dc1b3728f534e231c1024dea46733a7fb30eb03d3774a76211dd373aef2eb601b"
+}

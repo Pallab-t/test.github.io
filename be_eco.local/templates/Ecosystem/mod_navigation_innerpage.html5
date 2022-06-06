@@ -1,0 +1,26 @@
+    <div id="Wrapper">
+        {{insert_module::6}}
+            <header id="Header">
+
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+	                                {{insert_module::3}}
+	                            <div class="menu_wrapper">
+	                                <nav id="menu">
+	
+									  <a href="<?= $this->request ?>#<?= $this->skipId ?>" class="invisible"><?= $this->skipNavigation ?></a>
+									
+									  <?= $this->items ?>
+									
+									  <a id="<?= $this->skipId ?>" class="invisible">&nbsp;</a>
+	
+	                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+	                </div>
+	            </div>
+
+	        </div>
+	    </div>
+	</div>
+</header>

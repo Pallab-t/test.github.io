@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/calendar-bundle/src/Resources/contao/languages/zh/tl_calendar.xlf
+$GLOBALS['TL_LANG']['tl_calendar']['title'][0] = '标题';
+$GLOBALS['TL_LANG']['tl_calendar']['title'][1] = '请输入日历标题。';
+$GLOBALS['TL_LANG']['tl_calendar']['jumpTo'][0] = '重定向页面';
+$GLOBALS['TL_LANG']['tl_calendar']['jumpTo'][1] = '请选择日历详情页，当访问者点击活动时会被重定向到该页面。';
+$GLOBALS['TL_LANG']['tl_calendar']['allowComments'][0] = '允许评论';
+$GLOBALS['TL_LANG']['tl_calendar']['allowComments'][1] = '允许访问者评论活动。';
+$GLOBALS['TL_LANG']['tl_calendar']['notify'][0] = '通知';
+$GLOBALS['TL_LANG']['tl_calendar']['notify'][1] = '请选择有评论时需要通知的人。';
+$GLOBALS['TL_LANG']['tl_calendar']['sortOrder'][0] = '排序顺序';
+$GLOBALS['TL_LANG']['tl_calendar']['sortOrder'][1] = '默认状况下，评论是升序排列，从最久的评论开始。';
+$GLOBALS['TL_LANG']['tl_calendar']['perPage'][0] = '每页评论数';
+$GLOBALS['TL_LANG']['tl_calendar']['perPage'][1] = '每页评论数。设置为0禁用分页功能。';
+$GLOBALS['TL_LANG']['tl_calendar']['moderate'][0] = '适当的评论';
+$GLOBALS['TL_LANG']['tl_calendar']['moderate'][1] = '审核通过后发布评论。';
+$GLOBALS['TL_LANG']['tl_calendar']['bbcode'][0] = '允许BBCode';
+$GLOBALS['TL_LANG']['tl_calendar']['bbcode'][1] = '允许访问者使用BBCode格式的评论。';
+$GLOBALS['TL_LANG']['tl_calendar']['requireLogin'][0] = '登录后评论';
+$GLOBALS['TL_LANG']['tl_calendar']['requireLogin'][1] = '仅允许认证用户发表评论。';
+$GLOBALS['TL_LANG']['tl_calendar']['disableCaptcha'][1] = '在对认证用户限制评论的时候使用该选项。';
+$GLOBALS['TL_LANG']['tl_calendar']['protected'][0] = '保护日程';
+$GLOBALS['TL_LANG']['tl_calendar']['protected'][1] = '只对某些用户组显示日程';
+$GLOBALS['TL_LANG']['tl_calendar']['groups'][0] = '允许的成员组';
+$GLOBALS['TL_LANG']['tl_calendar']['groups'][1] = '这些用户组将可以看到这个日历中的活动。';
+$GLOBALS['TL_LANG']['tl_calendar']['tstamp'][0] = '修改日期';
+$GLOBALS['TL_LANG']['tl_calendar']['tstamp'][1] = '最近修改的日期';
+$GLOBALS['TL_LANG']['tl_calendar']['title_legend'] = '标题和重定向页面';
+$GLOBALS['TL_LANG']['tl_calendar']['comments_legend'] = '评论';
+$GLOBALS['TL_LANG']['tl_calendar']['protected_legend'] = '访问保护';
+$GLOBALS['TL_LANG']['tl_calendar']['feed_legend'] = 'RSS/Atom源';
+$GLOBALS['TL_LANG']['tl_calendar']['notify_admin'] = '系统管理员';
+$GLOBALS['TL_LANG']['tl_calendar']['notify_author'] = '活动作者';
+$GLOBALS['TL_LANG']['tl_calendar']['notify_both'] = '作者和系统管理员';
+$GLOBALS['TL_LANG']['tl_calendar']['source_teaser'] = '活动广告';
+$GLOBALS['TL_LANG']['tl_calendar']['source_text'] = '全部文章';
+$GLOBALS['TL_LANG']['tl_calendar']['feeds'][0] = '日历源';
+$GLOBALS['TL_LANG']['tl_calendar']['new'][0] = '新建';
+$GLOBALS['TL_LANG']['tl_calendar']['new'][1] = '创建一个新日历';
+$GLOBALS['TL_LANG']['tl_calendar']['show'] = '显示ID为%s的日历详情';
+$GLOBALS['TL_LANG']['tl_calendar']['edit'] = '编辑ID为%s的日历';
+$GLOBALS['TL_LANG']['tl_calendar']['editmeta'] = '编辑日历设置';
+$GLOBALS['TL_LANG']['tl_calendar']['editheader'] = '编辑ID为%s的日历详情';
+$GLOBALS['TL_LANG']['tl_calendar']['copy'] = '复制ID为%s的日历';
+$GLOBALS['TL_LANG']['tl_calendar']['delete'] = '删除ID为%s的日历';

@@ -1,0 +1,31 @@
+        <div class="footer_copy">
+            <div class="container">
+                <div class="column one">
+                    <a id="back_to_top" class="button button_js" href><i class="icon-up-open-big"></i></a>
+                    <div class="copyright">
+                        <?php
+						$s = substr($this->text, 3);
+						$s = substr($s, 0, strlen($s)-4);
+						echo $s;
+						?>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+    <div id="Side_slide" class="right dark" data-width="250">
+        <div class="close-wrapper">
+            <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
+        </div>
+        <!--<div class="extras">-->
+        <!--    <a href="https://1.envato.market/9ZxXY" class="action_button" target="_blank">Buy now <i class="icon-right-open"></i></a>-->
+        <!--    <div class="extras-wrapper"></div>-->
+        <!--</div>-->
+        <div class="menu_wrapper"></div>
+    </div>
+    <div id="body_overlay"></div>

@@ -1,0 +1,21 @@
+                <div class="column one-fourth">
+                    <div style="text-align: right;">
+                        <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+                            <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="no_line" style="margin:0 auto 10px">
+                <div class="column one-third">
+                    <h2><?= $this->headline ?></h2>
+                </div>
+                <div class="column two-third">
+                    <?= $this->text ?>
+                </div>
+                <hr class="no_line" style="margin:0 auto 10px">
+                <h6><a href="#"><?= $this->caption ?></a><i class="icon-right-open-mini themecolor"></i></h6>
+            </div>
+        </div>
+    </div>
+</div>

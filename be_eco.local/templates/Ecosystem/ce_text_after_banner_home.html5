@@ -1,0 +1,27 @@
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <div class="section mcb-section mcb-section-o4tlptb3a no-margin-h no-margin-v highlight-right" style="padding-top:0px;padding-bottom:0px;background-color:">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second valign-top move-up clearfix" style="margin-top:-200px" data-mobile="no-up">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix" style="background-color:#fff;padding:60px 10% 45px;border-right: 1px solid #f6f7f8;">
+                                        <div class="column three-fourth">
+                                            <h3 class="themecolor"><?= $this->headline ?></h3>
+                                        </div>
+                                        <div class="column one-fourth">
+                                            <div style="text-align: right;">
+                                                <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+                                                    <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="no_line" style="margin:0 auto 10px">
+                                        <?= $this->text ?>
+                                        <hr class="no_line" style="margin:0 auto 10px">
+                                        <h6><a href="content/eco3/index.php/about/index.html"><?= $this->caption ?></a><i class="icon-right-open-mini themecolor"></i></h6>
+                                    </div>
+                                </div>

@@ -1,0 +1,122 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/fa/tl_user.xlf
+$GLOBALS['TL_LANG']['tl_user']['username'][0] = 'نام کاربری';
+$GLOBALS['TL_LANG']['tl_user']['username'][1] = 'لطفا یک نام کاربری یکتایی را وارد نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['name'][0] = 'نام';
+$GLOBALS['TL_LANG']['tl_user']['name'][1] = 'لطفا نام و نام خانوادگی را وارد کنید.';
+$GLOBALS['TL_LANG']['tl_user']['email'][0] = 'نشانی ایمیل';
+$GLOBALS['TL_LANG']['tl_user']['email'][1] = 'لطفا نشانی ایمیل معتبر وارد نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['language'][0] = 'زبان بخش مدیریت';
+$GLOBALS['TL_LANG']['tl_user']['language'][1] = 'اینجا می‌توانید زبان بخش مدیریت را انتخاب نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['backendTheme'][0] = 'پوسته بخش مدیریت';
+$GLOBALS['TL_LANG']['tl_user']['backendTheme'][1] = 'اینجا می‌توانید پوسته بخش مدیریت کلی را لغو کنید.';
+$GLOBALS['TL_LANG']['tl_user']['fullscreen'][0] = 'تمام صفحه';
+$GLOBALS['TL_LANG']['tl_user']['uploader'][0] = 'بارگزار پرونده';
+$GLOBALS['TL_LANG']['tl_user']['uploader'][1] = 'اینجا می‌توانید بارگزار پرونده را انتخاب نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['showHelp'][0] = 'نمایش توضیحات کمکی';
+$GLOBALS['TL_LANG']['tl_user']['showHelp'][1] = 'نمایش متن توضیحات مختصر زیر فیلد ورودی.';
+$GLOBALS['TL_LANG']['tl_user']['thumbnails'][0] = 'نمایش تصاویر بندانگشتی';
+$GLOBALS['TL_LANG']['tl_user']['thumbnails'][1] = 'نمایش تصاویر بندانگشتی در مدیریت پرونده.';
+$GLOBALS['TL_LANG']['tl_user']['useRTE'][0] = 'فعال کردن ویرایشگر متنی';
+$GLOBALS['TL_LANG']['tl_user']['useRTE'][1] = 'استفاده از ویرایشگر متنی پیشرفته برای شکل دادن به عناصر متنی.';
+$GLOBALS['TL_LANG']['tl_user']['useCE'][0] = 'فعال کردن ویرایشگر کد';
+$GLOBALS['TL_LANG']['tl_user']['useCE'][1] = 'استفاده از ویرایشگر کد برای تغییر عناصر کدی.';
+$GLOBALS['TL_LANG']['tl_user']['pwChange'][0] = 'تغییر گذرواژه نیاز است';
+$GLOBALS['TL_LANG']['tl_user']['pwChange'][1] = 'وادار کردن کاربر به تغییرگذرواژه در ورود بعدی.';
+$GLOBALS['TL_LANG']['tl_user']['admin'][0] = 'تبدیل کاربر به مدیر سیستم';
+$GLOBALS['TL_LANG']['tl_user']['admin'][1] = 'مدیران سیستم به تمامی ماژول‌ها و عناصر دسترسی نامحدود خواهند داشت.';
+$GLOBALS['TL_LANG']['tl_user']['groups'][0] = 'گروه‌های کاربران';
+$GLOBALS['TL_LANG']['tl_user']['groups'][1] = 'اینجا می‌توانید کاربر را به یک یا چند گروه اختصاص دهید.';
+$GLOBALS['TL_LANG']['tl_user']['inherit'][0] = 'ارث‌بری مجوزها';
+$GLOBALS['TL_LANG']['tl_user']['inherit'][1] = 'اینجا می‌توانید مجوز‌های گروه که کاربر اثر می‌برد را تعریف کنید.';
+$GLOBALS['TL_LANG']['tl_user']['group'][0] = 'استفاده فقط از تنظیمات گروه';
+$GLOBALS['TL_LANG']['tl_user']['group'][1] = 'کاربر فقط از مجوزهای گروه ارث می‌برد.';
+$GLOBALS['TL_LANG']['tl_user']['extend'][0] = 'گسترش تنظیمات گروه';
+$GLOBALS['TL_LANG']['tl_user']['extend'][1] = 'مجوز‌های گروه توسط مجوزهای شخصی توسه می‌یابد.';
+$GLOBALS['TL_LANG']['tl_user']['custom'][0] = 'استفاده فقط از تنظیمات شخصی';
+$GLOBALS['TL_LANG']['tl_user']['custom'][1] = 'فقط مجوزهای شخصی اعمال می‌شوند.';
+$GLOBALS['TL_LANG']['tl_user']['modules'][0] = 'ماژول‌های بخش مدیریت';
+$GLOBALS['TL_LANG']['tl_user']['modules'][1] = 'اینجا می‌توانید دسترسی به یک یا چند ماژول بخش مدیریت را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['themes'][0] = 'ماژول‌های پوسته';
+$GLOBALS['TL_LANG']['tl_user']['themes'][1] = 'اینجا می‌توانید دسترسی به ماژول پوسته را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['elements'][0] = 'المان‌های محتوایی';
+$GLOBALS['TL_LANG']['tl_user']['pagemounts'][0] = 'برگه‌های مونت شده';
+$GLOBALS['TL_LANG']['tl_user']['pagemounts'][1] = 'اینجا می‌توانید دسترسی به یک یا چند برگه را واگذار نمایید (زیربرگه‌ها به صورت خودکار گنجانده خواهند شد).';
+$GLOBALS['TL_LANG']['tl_user']['alpty'][0] = 'گونه‌های برگه مجاز';
+$GLOBALS['TL_LANG']['tl_user']['alpty'][1] = 'اینجا می‌توانید گونه‌های برگه مجاز را انتخاب نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['filemounts'][0] = 'پرونده‌های مونت شده';
+$GLOBALS['TL_LANG']['tl_user']['filemounts'][1] = 'اینجا می‌توانید دسترسی به یک یا چند پوشه را واگذار نمایید (زیرپوشه‌ها به صورت خودکار گنجانده خواهند شد).';
+$GLOBALS['TL_LANG']['tl_user']['imageSizes'][0] = 'اندازه‌های تصویر';
+$GLOBALS['TL_LANG']['tl_user']['forms'][0] = 'فرم‌های مجاز';
+$GLOBALS['TL_LANG']['tl_user']['forms'][1] = 'اینجا می‌توانید دسترسی به یک یا چند فرم را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['formp'][0] = 'مجوزهای فرم';
+$GLOBALS['TL_LANG']['tl_user']['formp'][1] = 'اینجا می‌توانید مجوزهای فرم را تعریف نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['amg'][0] = 'گروه‌های اعضاء مجاز';
+$GLOBALS['TL_LANG']['tl_user']['disable'][0] = 'غیرفعال';
+$GLOBALS['TL_LANG']['tl_user']['disable'][1] = 'غیرفعال کردن موقتی حساب کاربری.';
+$GLOBALS['TL_LANG']['tl_user']['start'][0] = 'فعال در';
+$GLOBALS['TL_LANG']['tl_user']['stop'][0] = 'غیرفعال در';
+$GLOBALS['TL_LANG']['tl_user']['session'][0] = 'پاک‌سازی داده‌ها';
+$GLOBALS['TL_LANG']['tl_user']['session'][1] = 'لطفا داده‌هایی را که می‌خواهید پاک‌سازی شوند را انتخاب کنید.';
+$GLOBALS['TL_LANG']['tl_user']['name_legend'] = 'نام و ایمیل';
+$GLOBALS['TL_LANG']['tl_user']['backend_legend'] = 'تنظیمات بخش مدیریت';
+$GLOBALS['TL_LANG']['tl_user']['theme_legend'] = 'پوسته بخش مدیریت';
+$GLOBALS['TL_LANG']['tl_user']['password_legend'] = 'تنظیمات گذرواژه';
+$GLOBALS['TL_LANG']['tl_user']['admin_legend'] = 'مدیر';
+$GLOBALS['TL_LANG']['tl_user']['groups_legend'] = 'گروه‌های کاربران';
+$GLOBALS['TL_LANG']['tl_user']['modules_legend'] = 'ماژول‌های مجاز';
+$GLOBALS['TL_LANG']['tl_user']['pagemounts_legend'] = 'برگه‌های مونت شده';
+$GLOBALS['TL_LANG']['tl_user']['filemounts_legend'] = 'پرونده‌های مونت شده';
+$GLOBALS['TL_LANG']['tl_user']['imageSizes_legend'] = 'اندازه‌های تصویر';
+$GLOBALS['TL_LANG']['tl_user']['forms_legend'] = 'مجوزهای فرم';
+$GLOBALS['TL_LANG']['tl_user']['amg_legend'] = 'گروه‌های اعضاء مجاز';
+$GLOBALS['TL_LANG']['tl_user']['account_legend'] = 'تنظیمات حساب کاربری';
+$GLOBALS['TL_LANG']['tl_user']['session_legend'] = 'پاک کردن نهانگاه';
+$GLOBALS['TL_LANG']['tl_user']['sessionLabel'] = 'داده‌های نشست';
+$GLOBALS['TL_LANG']['tl_user']['htmlLabel'] = 'نهانگاه تصویر';
+$GLOBALS['TL_LANG']['tl_user']['tempLabel'] = 'نهان‌گاه مشترک';
+$GLOBALS['TL_LANG']['tl_user']['sessionPurged'] = 'داده‌های نشست پاک‌سازی شده‌اند.';
+$GLOBALS['TL_LANG']['tl_user']['htmlPurged'] = 'نهانگاه تصویر پاک‌سازی شده است.';
+$GLOBALS['TL_LANG']['tl_user']['FileUpload'] = 'بارگزار پیش‌فرض';
+$GLOBALS['TL_LANG']['tl_user']['useTwoFactor'] = 'استفاده از احراز هویت دومرحله‌ای';
+$GLOBALS['TL_LANG']['tl_user']['new'][0] = 'جدید';
+$GLOBALS['TL_LANG']['tl_user']['new'][1] = 'ساخت یک کاربر جدید';
+$GLOBALS['TL_LANG']['tl_user']['show'] = 'نمایش جزئیات کاربر شناسه‌ی %s';
+$GLOBALS['TL_LANG']['tl_user']['edit'] = 'ویرایش کاربر شناسه‌ی %s';
+$GLOBALS['TL_LANG']['tl_user']['copy'] = 'تکثیر کاربر شناسه‌ی %s';
+$GLOBALS['TL_LANG']['tl_user']['delete'] = 'حذف کاربر شناسه‌ی %s';
+$GLOBALS['TL_LANG']['tl_user']['toggle'] = 'فعال/غیرفعال کردن کاربر شناسه‌ی %s';
+$GLOBALS['TL_LANG']['tl_user']['su'] = 'تعویض کاربر شناسه‌ی %s';
+
+// vendor/contao/calendar-bundle/src/Resources/contao/languages/fa/tl_user.xlf
+$GLOBALS['TL_LANG']['tl_user']['calendars'][0] = 'سالنماهای مجاز';
+$GLOBALS['TL_LANG']['tl_user']['calendars'][1] = 'اینجا می‌توانید سطح دسترسی به یک یا چند سالنما را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['calendarp'][0] = 'مجوزهای سالنما';
+$GLOBALS['TL_LANG']['tl_user']['calendarp'][1] = 'اینجا می‌توانید مجوزهای سالنما را تعریف نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['calendarfeeds'][1] = 'اینجا می‌توانید دسترسی به یک یا چند خوراک سالنما را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['calendarfeedp'][1] = 'اینجا می‌توانید مجوزهای خوراک سالنما را تعریف نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['calendars_legend'] = 'مجوزهای رویدادها';
+
+// vendor/contao/faq-bundle/src/Resources/contao/languages/fa/tl_user.xlf
+$GLOBALS['TL_LANG']['tl_user']['faqs'][0] = 'دسته‌های پرسش و پاسخ مجاز';
+$GLOBALS['TL_LANG']['tl_user']['faqs'][1] = 'اینجا می‌توانید اینجا می‌توانید دسترسی به یک یا چند دسته پرسش و پاسخ را واگذار نمایید';
+$GLOBALS['TL_LANG']['tl_user']['faqp'][0] = 'مجوزهای دسته‌بندی پرسش و پاسخ';
+$GLOBALS['TL_LANG']['tl_user']['faqp'][1] = 'اینجا می‌توانید مجوزهای دسته‌بندی پرسش و پاسخ را تعیین کنید.';
+$GLOBALS['TL_LANG']['tl_user']['faq_legend'] = 'مجوزهای پرسش و پاسخ';
+
+// vendor/contao/news-bundle/src/Resources/contao/languages/fa/tl_user.xlf
+$GLOBALS['TL_LANG']['tl_user']['news'][0] = 'بایگانی‌های مجاز';
+$GLOBALS['TL_LANG']['tl_user']['news'][1] = 'اینجا می‌توانید دسترسی به یک یا چند بایگانی خبر را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['newp'][0] = 'مجوزهای اخبار';
+$GLOBALS['TL_LANG']['tl_user']['newp'][1] = 'اینجا می‌توانید مجوزهای خبر را تعریف نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['newsfeeds'][1] = 'اینجا می‌توانید دسترسی به یک یا چند خوراک اخبار را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['newsfeedp'][1] = 'اینجا می‌توانید مجوزهای خوراک اخبار را تعریف نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['news_legend'] = 'مجوزهای اخبار';
+
+// vendor/contao/newsletter-bundle/src/Resources/contao/languages/fa/tl_user.xlf
+$GLOBALS['TL_LANG']['tl_user']['newsletters'][0] = 'کانال‌های مجاز';
+$GLOBALS['TL_LANG']['tl_user']['newsletters'][1] = 'اینجا می‌توانید دسترسی به یک چند کانال را واگذار نمایید.';
+$GLOBALS['TL_LANG']['tl_user']['newsletterp'][0] = 'مجوزهای کانال';
+$GLOBALS['TL_LANG']['tl_user']['newsletterp'][1] = 'اینجا می‌توانید مجوزهای کانال را تعیین کنید.';
+$GLOBALS['TL_LANG']['tl_user']['newsletter_legend'] = 'مجوزهای خبرنامه';

@@ -1,0 +1,7 @@
+<div class="wrap mcb-wrap one valign-top clearfix">
+    <div class="mcb-wrap-inner">
+        <div class="column mcb-column one-second column_column">
+            <div class="column_attr clearfix bg-cover" style="background-image:url('<?= $this->singleSRC ?>');background-repeat:no-repeat;background-position:center;">
+                <hr class="no_line" style="margin:0 auto 400px">
+            </div>
+        </div>

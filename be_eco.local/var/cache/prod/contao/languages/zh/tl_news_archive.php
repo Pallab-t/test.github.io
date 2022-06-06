@@ -1,0 +1,45 @@
+<?php
+
+// vendor/contao/news-bundle/src/Resources/contao/languages/zh/tl_news_archive.xlf
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][0] = '标题';
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][1] = '请输入新闻存档的标题';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][0] = '重定向页面';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][1] = '请选择新闻详情页面，用户点击一条新闻时会重定向到该页面。';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][0] = '允许评论';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][1] = '允许访客发表评论';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][0] = '通知';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][1] = '请选择有评论时需要通知的人。';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][0] = '排序顺序';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][1] = '默认状况下，评论是升序排列，从最久的评论开始。';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][0] = '每页评论数';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][1] = '每页评论数。设置为0禁用分页功能。';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][0] = '适当的评论';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][1] = '审核通过后发布评论。';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][0] = '允许BBCode';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][1] = '允许访问者使用BBCode格式的评论。';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][0] = '登录后评论';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][1] = '仅允许认证用户发表评论。';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][1] = '在对认证用户限制评论的时候使用该选项。';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][0] = '保护存档';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][1] = '只有某些用户组才能访问';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][0] = '允许的成员组';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][1] = '允许访问的用户组';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][0] = '修改日期';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][1] = '最近修改的日期';
+$GLOBALS['TL_LANG']['tl_news_archive']['title_legend'] = '标题和重定向页面';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments_legend'] = '评论';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected_legend'] = '访问保护';
+$GLOBALS['TL_LANG']['tl_news_archive']['feed_legend'] = 'RSS/Atom源';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_admin'] = '系统管理员';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_author'] = '新闻条目的作者';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_both'] = '作者和系统管理员';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][0] = '新闻源';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][0] = '新建';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][1] = '创建一个新的新闻归档';
+$GLOBALS['TL_LANG']['tl_news_archive']['show'] = '显示ID为%s的新闻归档详情';
+$GLOBALS['TL_LANG']['tl_news_archive']['edit'] = '编辑ID为 %s 的新闻归档';
+$GLOBALS['TL_LANG']['tl_news_archive']['editheader'] = '编辑ID为 %s 的新闻归档设置';
+$GLOBALS['TL_LANG']['tl_news_archive']['editmeta'] = '编辑新闻存档设置';
+$GLOBALS['TL_LANG']['tl_news_archive']['copy'] = '复制ID为 %s的新闻归档';
+$GLOBALS['TL_LANG']['tl_news_archive']['delete'] = '删除ID为%s的新闻归档';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments'] = '显示新闻归档ID为 %s 的评论';

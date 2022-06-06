@@ -1,0 +1,17 @@
+<div class="section mcb-section mcb-section-0jgn0s62p" style="padding-top:110px;padding-bottom:80px;background-color:">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_column">
+                    <div class="column_attr clearfix">
+                        <h5 class="themecolor"><?= $this->headline ?></h5>
+                        <h2>
+                    	    <?php
+							$s = substr($this->text, 3);
+							$s = substr($s, 0, strlen($s)-4);
+							echo $s;
+							?>
+
+                        </h2>
+                    </div>
+                </div>

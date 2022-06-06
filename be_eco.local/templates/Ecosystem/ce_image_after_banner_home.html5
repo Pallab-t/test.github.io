@@ -1,0 +1,16 @@
+<div class="column mcb-column one column_image">
+    <div class="image_frame image_item scale-with-grid no_border">
+        <div class="image_wrapper">
+            <a href="#">
+                <div class="mask"></div><img class="scale-with-grid" src="<?= $this->singleSRC ?>"></a>
+            <div class="image_links">
+                <a href="#" class="link"><i class="icon-link"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="column mcb-column one column_column">
+    <div class="column_attr clearfix" style="background-color:#fff;padding:60px 10% 45px;border-right: 1px solid #f6f7f8;">
+        <div class="column three-fourth">
+            <h3 class="themecolor"><?= $this->headline ?></h3>
+        </div>

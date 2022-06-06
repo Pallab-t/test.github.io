@@ -1,0 +1,68 @@
+composer/package-versions-deprecated: Generating version class...
+composer/package-versions-deprecated: ...done generating version class
+contao/manager-plugin: Generating plugin class...
+contao/manager-plugin: ...done generating plugin class
+Added the web/.htaccess file.
+Added the web/app.php file.
+Added the web/index.php file.
+Added the web/preview.php file.
+
+ // Clearing the cache for the prod environment with debug                     
+ // false                                                                      
+
+ [OK] Cache for the "prod" environment (debug=false) was successfully cleared. 
+
+
+ // Clearing the cache for the dev environment with debug                      
+ // true                                                                       
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.   
+
+
+ // Warming up the cache for the prod environment with debug                   
+ // false                                                                      
+
+ [OK] Cache for the "prod" environment (debug=false) was successfully warmed.  
+
+
+ Trying to install assets as relative symbolic links.
+
+ --------- ------------------------ ------------------ 
+            Bundle                   Method / Error    
+ --------- ------------------------ ------------------ 
+  WARNING   ContaoCoreBundle         absolute symlink  
+  WARNING   ContaoCalendarBundle     absolute symlink  
+  WARNING   ContaoCommentsBundle     absolute symlink  
+  WARNING   ContaoFaqBundle          absolute symlink  
+  WARNING   ContaoNewsBundle         absolute symlink  
+  WARNING   ContaoNewsletterBundle   absolute symlink  
+ --------- ------------------------ ------------------ 
+
+ [OK] All assets were successfully installed.                                  
+
+
+ * assets/css
+ * assets/js
+ * system
+ * system/cache
+ * system/config
+ * system/modules
+ * system/themes
+ * system/tmp
+ * templates
+ * web/share
+ * web/system
+ * assets/images
+ * files
+
+
+ ---- ------------------------ ---------------------------------------------------------------- 
+       Symlink                  Target / Error                                                  
+ ---- ------------------------ ---------------------------------------------------------------- 
+  OK   system/themes/flexible   vendor/contao/core-bundle/src/Resources/contao/themes/flexible  
+  OK   web/assets               assets                                                          
+  OK   web/system/themes        system/themes                                                   
+  OK   system/logs              var/logs                                                        
+ ---- ------------------------ ---------------------------------------------------------------- 
+
+Done! Please open the Contao install tool or run contao:migrate on the command line to make sure the database is up-to-date.

@@ -1,0 +1,37 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * This file is part of Contao.
+ *
+ * (c) Leo Feyer
+ *
+ * @license LGPL-3.0-or-later
+ */
+
+namespace Contao\CoreBundle\Security\Voter;
+
+use Contao\BackendUser;
+use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
+use Symfony\Component\Security\Core\Authorization\Voter\Voter;
+
+class BackendAccessVoter extends Voter
+{
+    protected function supports($attribute, $subject): bool
+    {
+        return \is_string($attribute) && 0 === strncmp($attribute, 'contao_user.', 12);
+    }
+
+    protected function voteOnAttribute($attribute, $subject, TokenInterface $token): bool
+    {
+        $user = $token->getUser();
+        [, $field] = explode('.', $attribute, 2);
+
+        if (!$user instanceof BackendUser || (!is_scalar($subject) && !\is_array($subject))) {
+            return false;
+        }
+
+        return $user->hasAccess($subject, $field);
+    }
+}

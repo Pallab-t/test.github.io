@@ -1,0 +1,27 @@
+								<div class="column mcb-column one-third column_list">
+								    <div class="list_item lists_2 clearfix">
+								        <div class="list_left list_image"><img src="<?= $this->singleSRC ?>" class="scale-with-grid">
+								        </div>
+								        <div class="list_right">
+								            <h4><?= $this->headline ?></h4>
+								            <div class="desc"></div>
+								        </div>
+								    </div>
+								</div>
+<?php
+$s = $this->alt;
+if($s == 'end')
+{
+?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php } ?>

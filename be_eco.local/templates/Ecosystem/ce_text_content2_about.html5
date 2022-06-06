@@ -1,0 +1,19 @@
+        <div class="column mcb-column one column_column">
+            <div class="column_attr clearfix" style="padding:60px 10% 45px;">
+                <div class="column three-fourth">
+                    <h3 class="themecolor"><?= $this->headline ?></h3>
+                </div>
+                <div class="column one-fourth">
+                    <div style="text-align: right;">
+                        <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+                            <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="no_line" style="margin:0 auto 10px">
+                <?= $this->text ?>
+            </div>
+        </div>
+    </div>
+</div>

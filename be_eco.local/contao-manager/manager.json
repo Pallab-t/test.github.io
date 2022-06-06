@@ -1,0 +1,8 @@
+{
+    "server": "xampp",
+    "last_update": "2020-06-04T16:29:21+02:00",
+    "latest_version": "1.2.4",
+    "latest_requires": {
+        "php": "^7.1"
+    }
+}

@@ -1,0 +1,40 @@
+<?php
+
+// vendor/contao/faq-bundle/src/Resources/contao/languages/zh/tl_faq_category.xlf
+$GLOBALS['TL_LANG']['tl_faq_category']['title'][0] = '标题';
+$GLOBALS['TL_LANG']['tl_faq_category']['title'][1] = '请输入类别标题。';
+$GLOBALS['TL_LANG']['tl_faq_category']['headline'][0] = '模块标题';
+$GLOBALS['TL_LANG']['tl_faq_category']['headline'][1] = '请输入类别标题。';
+$GLOBALS['TL_LANG']['tl_faq_category']['jumpTo'][0] = '重定向页面';
+$GLOBALS['TL_LANG']['tl_faq_category']['jumpTo'][1] = '请选择FAQ详情页，当访问者点击FAQ时会被重定向到该页面。';
+$GLOBALS['TL_LANG']['tl_faq_category']['allowComments'][0] = '允许评论';
+$GLOBALS['TL_LANG']['tl_faq_category']['allowComments'][1] = '允许访问者在FAQs中发表评论。';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify'][0] = '通知';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify'][1] = '请选择有评论时需要通知的人。';
+$GLOBALS['TL_LANG']['tl_faq_category']['sortOrder'][0] = '排序顺序';
+$GLOBALS['TL_LANG']['tl_faq_category']['sortOrder'][1] = '默认状况下，评论是升序排列，从最久的评论开始。';
+$GLOBALS['TL_LANG']['tl_faq_category']['perPage'][0] = '每页评论数';
+$GLOBALS['TL_LANG']['tl_faq_category']['perPage'][1] = '每页评论数。设置为0禁用分页功能。';
+$GLOBALS['TL_LANG']['tl_faq_category']['moderate'][0] = '适当的评论';
+$GLOBALS['TL_LANG']['tl_faq_category']['moderate'][1] = '审核通过后发布评论。';
+$GLOBALS['TL_LANG']['tl_faq_category']['bbcode'][0] = '允许BBCode';
+$GLOBALS['TL_LANG']['tl_faq_category']['bbcode'][1] = '允许访问者使用BBCode格式的评论。';
+$GLOBALS['TL_LANG']['tl_faq_category']['requireLogin'][0] = '登录后评论';
+$GLOBALS['TL_LANG']['tl_faq_category']['requireLogin'][1] = '仅允许认证用户发表评论。';
+$GLOBALS['TL_LANG']['tl_faq_category']['disableCaptcha'][1] = '在对认证用户限制评论的时候使用该选项。';
+$GLOBALS['TL_LANG']['tl_faq_category']['tstamp'][0] = '修改日期';
+$GLOBALS['TL_LANG']['tl_faq_category']['tstamp'][1] = '最近修改的日期';
+$GLOBALS['TL_LANG']['tl_faq_category']['title_legend'] = '标题和重定向';
+$GLOBALS['TL_LANG']['tl_faq_category']['comments_legend'] = '评论';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_admin'] = '系统管理员';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_author'] = 'FAQ作者';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_both'] = '作者和系统管理员';
+$GLOBALS['TL_LANG']['tl_faq_category']['deleteConfirm'] = '删除分类将删除下属所有FAQ问题，真的要删除分类ID %s吗？';
+$GLOBALS['TL_LANG']['tl_faq_category']['new'][0] = '新建';
+$GLOBALS['TL_LANG']['tl_faq_category']['new'][1] = '创建一个新类别';
+$GLOBALS['TL_LANG']['tl_faq_category']['show'] = '显示ID为%s的类别详情';
+$GLOBALS['TL_LANG']['tl_faq_category']['edit'] = '编辑ID为%s的类别';
+$GLOBALS['TL_LANG']['tl_faq_category']['editheader'] = '编辑ID为%s的类别设置';
+$GLOBALS['TL_LANG']['tl_faq_category']['editmeta'] = '编辑类别设置';
+$GLOBALS['TL_LANG']['tl_faq_category']['copy'] = '复制ID为%s的类别';
+$GLOBALS['TL_LANG']['tl_faq_category']['delete'] = '删除ID为%s的类别';

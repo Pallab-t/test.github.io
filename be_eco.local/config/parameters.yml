@@ -1,0 +1,8 @@
+# This file has been auto-generated during installation
+parameters:
+    database_host: localhost
+    database_port: 3306
+    database_user: root
+    database_password: null
+    database_name: eco
+    secret: 66596d433b61e6102305c03d0791cb79778b6bbfcff4fb22215df1cd75cfd0bb

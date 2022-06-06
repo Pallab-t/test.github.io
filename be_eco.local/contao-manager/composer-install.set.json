@@ -1,0 +1,1 @@
+{"id":"composer-install","commandline":["C:\\XAMPP\\php\\php.exe","-q","C:\/xampp\/htdocs\/be_eco.local\/web\/contao-manager.phar.php","composer","install","--prefer-dist","--no-dev","--no-progress","--no-suggest","--no-ansi","--no-interaction","--optimize-autoloader"],"cwd":"C:\\xampp\\htdocs\\be_eco.local","status":"ready","timeout":0}

@@ -1,0 +1,4 @@
+<div id="Header_wrapper" style="background-image: url(<?= $this->singleSRC ?>);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;">

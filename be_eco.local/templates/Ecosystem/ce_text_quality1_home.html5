@@ -1,0 +1,20 @@
+<div class="column mcb-column one column_divider">
+    <hr class="no_line" style="margin:0 auto 30px">
+</div>
+<div class="column mcb-column one-third column_list">
+    <div class="list_item lists_2 clearfix">
+        <div class="list_left list_image"><img src="<?= $this->singleSRC ?>" class="scale-with-grid">
+        </div>
+        <div class="list_right">
+            <h4><?= $this->headline ?></h4>
+            <div class="desc">
+                <?php
+				$s = substr($this->text, 3);
+				$s = substr($s, 0, strlen($s)-4);
+				echo $s;
+				?>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<hr style="margin:0 auto 40px;background-color:#e5e8eb">
+<?= $this->text ?>
+<hr class="no_line" style="margin:0 auto 10px">
+<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+    <div class="image_wrapper"><img class="scale-with-grid" src="<?= $this->singleSRC ?>">
+    </div>
+</div>
+<hr class="no_line" style="margin:0 auto 15px">
+<h5><?= $this->headline ?></h5>

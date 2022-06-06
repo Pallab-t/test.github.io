@@ -1,0 +1,7 @@
+        <div class="column mcb-column one column_column">
+            <div class="column_attr clearfix" style="background-image:url('<?= $this->singleSRC ?>');background-repeat:no-repeat;background-position:left top;padding:0 0 0 70px;">
+                <h3><a href="#"><?= $this->headline ?></a></h3>
+            </div>
+        </div>
+    </div>
+</div>

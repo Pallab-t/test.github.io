@@ -1,0 +1,12 @@
+<div class="column mcb-column one-third column_column">
+    <div class="column_attr clearfix align_center" style="background-color:#fff;padding:40px 40px 25px;">
+        <h3><?= $this->headline ?></h3>
+        <h2 class="themecolor">
+    	    <?php
+			$s = substr($this->text, 3);
+			$s = substr($s, 0, strlen($s)-4);
+			echo $s;
+			?>
+
+        </h2>
+        <hr class="no_line" style="margin:0 auto 25px">

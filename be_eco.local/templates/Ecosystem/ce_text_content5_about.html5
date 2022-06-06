@@ -1,0 +1,34 @@
+                <div class="section mcb-section mcb-section-mhzo9vhr6 bg-cover bg-cover" style="padding-top:140px;padding-bottom:100px;background-image:url(<?= $this->singleSRC ?>);background-repeat:no-repeat;background-position:center;background-attachment:fixed;background-size:cover;-webkit-background-size:cover">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one-sixth column_placeholder">
+                                    <div class="placeholder">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="column mcb-column mcb-item-ikwkl6ljo two-third column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h5 class="themecolor"><?= $this->headline ?></h5>
+                                        <h2 style="color: #fff;">
+                                    	    <?php
+											$s = substr($this->text, 3);
+											$s = substr($s, 0, strlen($s)-4);
+											echo $s;
+											?>
+
+                                        </h2>
+                                        <hr class="no_line" style="margin:0 auto 20px">
+                                        <a class="button button_size_2 button_theme button_js" href="#" target="_blank"><span class="button_label"><?= $this->alt ?></span></a><a class="button button_size_2 button_js" href="#" target="_blank"><span class="button_label"><?= $this->caption ?></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 7%">
+    <div class="mcb-wrap-inner">
+        <div class="column mcb-column one column_column">
+            <div class="column_attr clearfix">
+                <h2 class="themecolor"><?= $this->headline ?></h2>

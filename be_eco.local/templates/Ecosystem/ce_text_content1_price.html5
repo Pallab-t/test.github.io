@@ -1,0 +1,16 @@
+        <h2><?= $this->headline ?></h2>
+        <hr class="no_line" style="margin:0 auto 15px">
+        <p style="margin: 0 10%;">
+            <?php
+			$s = substr($this->text, 3);
+			$s = substr($s, 0, strlen($s)-4);
+			echo $s;
+			?>
+
+        </p>
+    </div>
+</div>
+
+<div class="column mcb-column one column_divider">
+    <hr class="no_line" style="margin:0 auto 30px">
+</div>

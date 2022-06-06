@@ -1,0 +1,3 @@
+<div class="column one">
+  <textarea name="<?= $this->name ?>" id="ctrl_<?= $this->id ?>" class="textarea<?php if ($this->class): ?> <?= $this->class ?><?php endif; ?>" rows="<?= $this->rows ?>" cols="<?= $this->cols ?>"<?= $this->getAttributes() ?>><?= $this->value ?></textarea>
+</div>

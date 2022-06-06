@@ -1,0 +1,8 @@
+<div class="column one">
+  <?php if ($this->src): ?>
+    <input type="image" src="<?= $this->src ?>" id="ctrl_<?= $this->id ?>" class="submit<?php if ($this->class): ?> <?= $this->class ?><?php endif; ?>" title="<?= Contao\StringUtil::specialchars($this->slabel) ?>" alt="<?= Contao\StringUtil::specialchars($this->slabel) ?>"<?= $this->getAttributes() ?>>
+  <?php else: ?>
+    <input type="submit" id="ctrl_<?= $this->id ?>" class="submit<?php if ($this->class): ?> <?= $this->class ?><?php endif; ?>"<?= $this->getAttributes() ?> onClick="return check_values();" value="<?= $this->slabel ?>">
+  <?php endif; ?>
+
+</div>

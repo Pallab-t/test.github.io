@@ -1,0 +1,27 @@
+services:
+    contao_manager.listener.backend_menu_listener:
+        class: Contao\ManagerBundle\EventListener\BackendMenuListener
+        arguments:
+            - '@security.helper'
+            - '@router'
+            - '@request_stack'
+            - '@translator'
+            - '%kernel.debug%'
+            - '%contao_manager.manager_path%'
+            - '@?contao_manager.jwt_manager'
+        tags:
+            - kernel.event_listener
+
+    contao_manager.listener.initialize_application:
+        class: Contao\ManagerBundle\EventListener\InitializeApplicationListener
+        arguments:
+            - '%kernel.project_dir%'
+        tags:
+            - { name: kernel.event_listener, priority: -128 }
+
+    contao_manager.listener.install_command:
+        class: Contao\ManagerBundle\EventListener\InstallCommandListener
+        arguments:
+            - '%kernel.project_dir%'
+        tags:
+            - kernel.event_listener

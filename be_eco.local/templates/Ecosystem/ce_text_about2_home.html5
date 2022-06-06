@@ -1,0 +1,9 @@
+                        <?= $this->text ?>
+                        <hr class="no_line" style="margin:0 auto 20px">
+                        <a class="button button_right button_size_2 button_theme button_js" href="#"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label"><?= $this->headline ?></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

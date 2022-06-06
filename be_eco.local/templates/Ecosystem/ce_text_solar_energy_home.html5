@@ -1,0 +1,28 @@
+<div class="section mcb-section mcb-section-yxeb27wfo" style="padding-top:570px;padding-bottom:0px;background-image:url(<?= $this->singleSRC ?>);background-repeat:no-repeat;background-position:center top;">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one-second column_placeholder">
+                    <div class="placeholder">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="column mcb-column one-second column_column">
+                    <div class="column_attr clearfix" style="background-color:#fff;padding:80px 15% 65px;">
+                        <h5 class="themecolor"><?= $this->headline ?></h5>
+                        <h2>
+                    	    <?php
+							$s = substr($this->text, 3);
+							$s = substr($s, 0, strlen($s)-4);
+							echo $s;
+							?>
+
+                        </h2>
+                        <hr class="no_line" style="margin:0 auto 30px">
+                        <a class="button button_right button_size_2 button_theme button_js" href="#"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label"><?= $this->caption ?></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

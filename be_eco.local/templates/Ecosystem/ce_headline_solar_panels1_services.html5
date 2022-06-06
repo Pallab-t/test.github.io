@@ -1,0 +1,7 @@
+<div class="section mcb-section mcb-section-ro6n3ux3e no-margin-h no-margin-v" style="padding-top:110px;padding-bottom:90px;background-color:">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 7%">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_column">
+                    <div class="column_attr clearfix">
+                        <h2 class="themecolor"><?= $this->headline ?></h2>
